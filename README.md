@@ -20,9 +20,9 @@ Functionalities such as add to cart, checkout, login & signup are added. The pro
 We have also use bootstrap to implement the sliders on the homepage.
 
 
-## Live 
+## Deploy link 
 
-https://bebodywisediversityclone.netlify.app/index.html
+https://bebodywise-clone-black.vercel.app/
 
 
 ## Reference Images
