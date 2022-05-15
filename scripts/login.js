@@ -19,7 +19,7 @@ let Login=async ()=>{
             password:document.getElementById("password").value, 
         }
         let login_jsondata=JSON.stringify(login_data);
-        let logres=await fetch("https://bebodywise-api-backend.herokuapp.com/login",{
+        let logres=await fetch(("https://bebodywise-api-backend.herokuapp.com/login"),{
         method:'POST',
         body:login_jsondata,
         headers:{

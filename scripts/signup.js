@@ -24,7 +24,7 @@ document.getElementById("button").addEventListener("click", function(event){
          
             }
             register_data=JSON.stringify(register_data);
-            let res=await fetch("https://bebodywise-api-backend.herokuapp.com/register",{
+            let res=await fetch(("https://bebodywise-api-backend.herokuapp.com/register"),{
             method:'POST',
             body:register_data,
             headers:{
